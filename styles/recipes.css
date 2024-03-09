@@ -1,0 +1,75 @@
+body {
+    background-color: #0B0C10;
+    color: #C5C6C7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1000px;
+}
+
+h1 {
+    text-align: center;
+    color: #66FCF1;
+    font-weight: bold;
+    padding: 16px;
+}
+
+#heading-container {
+    background-color: #1F2833;
+    margin: 8px;
+}
+
+#body-container {
+    background-color: #1f2833;
+    margin: 8px;
+    padding: 8px 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol {
+    padding-left: 8px;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #C5C6C7;
+}
+
+a:hover {
+    color: #45A29E;
+}
+
+#recipe-image {
+    display: inline-block;
+    margin: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+#description {
+    display: inline-block;
+    width: 600px;
+    margin-left: 16px;
+    vertical-align: top;
+}
+
+#ingredients {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin: 16px;
+    vertical-align: top;
+}
+
+#method {
+    display: inline-block;
+    width: 650px;
+    vertical-align: top;
+}
